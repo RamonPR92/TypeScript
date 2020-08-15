@@ -68,9 +68,11 @@ var cualquierValor = 'Cualquier valor';
 var longitud = cualquierValor.length;
 //Null y Undefined
 //Null es un valor vacio y es asignable una y mas veces
+//Null es un tipo al que se le puede asignar undefined como valor
 //Undefined es un tipo de dato y cuando se define una variable
 //El valor ya no puede reasignarse 
 var juan = null;
 var pedro = undefined;
+var ramon = undefined;
 juan = 'Juan';
 //Error, no se puede asignar un valor con tipo diferente pedro = 'Pedro';

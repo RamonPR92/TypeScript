@@ -84,10 +84,13 @@ var longitud = (<string>cualquierValor).length;
 
 //Null y Undefined
 //Null es un valor vacio y es asignable una y mas veces
+//Null es un tipo al que se le puede asignar undefined como valor
 //Undefined es un tipo de dato y cuando se define una variable
 //El valor ya no puede reasignarse 
 var juan:string = null;
 var pedro:undefined = undefined;
+
+var ramon: null = undefined;
 
 juan = 'Juan';
 
